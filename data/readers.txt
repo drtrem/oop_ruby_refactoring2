@@ -1,5 +1,0 @@
-Guskov Hristina,guskov@gmail.com,Dnipro,Moskovskaya,12
-Akhmetov Daria,akhmetov@gmail.com,Dnipro,Popova,111
-Stolyarov Ruben,stolyarov@gmail.com,Dnipro,Moskovskaya,52
-Kirpa Izyaslav,kirpa@gmail.com,Dnipro,Pushkina,53
-Pugachev Vissarion,pugachev@gmail.com,Dnipro,13 avenu,12
