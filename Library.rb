@@ -19,15 +19,10 @@ class Library
     ARRAYS_NAME.each do |name|
       File.open("data/#{name}.txt", 'w') do |f|
         instance_eval("@#{name}.each do |obj|
-          obj_to_s(obj, f)
+          f.puts obj.to_s
         end")
       end
     end
-  end
-
-  def obj_to_s(obj, f)
-    obj.instance_variables.map {|index| f.print "#{obj.instance_variable_get(index)},"}
-    f.puts ''
   end
 
   def group_sort(param_sort)
